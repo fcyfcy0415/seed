@@ -1,0 +1,156 @@
+@CHARSET "UTF-8";
+   body{
+     background-image: url(Picture1.png);
+	 background-size:100% 100%;
+     }
+   .text0{                                 /*搜索栏样式1*/
+        margin-top:40px;
+        height:140px;
+        width:100%;
+        background-image:url(http://localhost:8080/seed/1.1.png);
+        }
+    .text1{
+        width:100%;
+        height:100%;
+        margin-top:20px;
+        float:left;
+        background-color:#DDDDDD;
+        padding: 25px;
+        background-color:#000000;/* IE6和部分IE7内核的浏览器(如QQ浏览器)下颜色被覆盖 */
+        background-color:rgba(0,0,0,0.2); /* IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂，但解析为透明 */
+
+        } 
+  
+    
+    .text2{  
+        width:1000px;
+        height:200px;                               /*搜索栏样式2*/
+        border-style:outset;
+        border-width:mediun;
+        float:left;
+        margin-top:0px;
+        margin-left:100px;
+        background-color:#FFFFFF;
+        }
+    .text3{  
+        width:1000px;
+        height:600px;                               /*搜索栏样式2*/
+        border-style:outset;
+        border-width:medium;
+        float:left;
+        margin-top:0px;
+        margin-left:100px;
+        background-color:#FFFFFF;
+        } 
+    .text4{  
+        width:1000px;
+        height:130px;                               /*搜索栏样式2*/
+        border-style:outset;
+        border-width:mediun;
+        float:left;
+        margin-top:0px;
+        margin-left:100px;
+        background-color:#FFFFFF;
+        }
+     .box{
+        list-style:none;   
+        } 
+     .money{                                 /*金钱样式*/
+        color:red;
+	    float:right;
+	    margin-right:20%;
+	    margin-top:0px;
+	    font-weight:900;
+	    }
+    .txt1{
+        margin-top:40px;
+        margin-left:10%;
+        font-weight:900;
+        }
+    
+    .txt2{
+        margin-top:5px;
+        margin-left:10%;
+        margin-right:10%;
+        font-weight:400;
+        font-family:KaiTi;
+        }    
+   
+    .text-overflow{
+         margin-top:90px;
+         font-size:30px;
+	     border-style:none;
+	     font-family:KaiTi;
+	     background-color:#66DD00;
+        }  
+    .tag-box{
+        width:700px;
+        height:70px;
+        margin-top:20px;
+        }
+    .tao-tag{
+       
+       }
+    .title-line{
+        width:700px;
+        height:70px;
+        margin-top:20px;
+       }
+    
+	.btn_style1
+	   {
+	    width:60px;
+	    height:40px;
+	    font-size:30px;
+	    margin-top:50px;
+	    text-align:right;
+	    }  
+	  a
+	   {
+	   text-decoration: none;
+	   }
+
+	 .btn_style{             /*举报，应聘，按钮样式*/
+	 width:130px;
+	 height:50px;
+	 font-size:30px;
+	 text-decoration:none;
+	 text-align:center;
+	 line-height:30px;
+	 color:#fff;
+	 background-color:	#CC0000;
+	 margin-left:20px;
+	 margin-top:40px;
+	 } 
+	   .button3{
+           border: 2px solid #444444;
+           background-color: #555555; /* 黑 */
+           font-family:	Microsoft YaHei;
+           color: white;
+           padding: 0px 0px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size:16px;
+           width:120px;
+           height:40px;
+           margin: 4px 2px;
+           cursor: pointer;
+           -webkit-transition-duration: 0.4s; /* Safari */
+           transition-duration: 0.4s;
+           box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+           } 
+     .button3:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+	 #btn_register:hover{          /*变色样式*/
+	 color:#C63300;
+	 }
+	 #btn_login:hover{             /*按钮变色样式*/
+	 background-color:#FF0000;
+	 }
+	 .text-overflow{
+	 float:left;
+	 margin-left:30px;
+	 }
+	 

@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+       body{
+	   		background-image: url(Picture1.png);
+	   		background-size:100% 100%;
+			}
+      .button3{
+           border: 2px solid #444444;
+           background-color: #555555; /* 黑 */
+           font-family:	Microsoft YaHei;
+           color: white;
+           padding: 0px 0px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size:16px;
+           width:120px;
+           height:40px;
+           margin: 4px 2px;
+           cursor: pointer;
+           -webkit-transition-duration: 0.4s; /* Safari */
+           transition-duration: 0.4s;
+            
+        } 
+     .button3:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+     .btn_style1
+	   {
+	    width:60px;
+	    height:40px;
+	    font-size:30px;
+	    margin-top:50px;
+	    text-align:right;
+	    } 
+	.text0{                                 /*搜索栏样式1*/
+        margin-top:40px;
+        height:140px;
+        width:100%;
+        background-image:url(http://localhost:8080/seed/1.1.png);
+        }
+    .text1{
+        width:100%;
+        height:100%;
+        margin-top:20px;
+        float:left;
+        background-color:#DDDDDD;
+         padding: 25px;
+        background-color:#000000;/* IE6和部分IE7内核的浏览器(如QQ浏览器)下颜色被覆盖 */
+        background-color:rgba(0,0,0,0.2); /* IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂，但解析为透明 */
+        } 
+     a
+	   {
+	   text-decoration: none;
+	   }
+    .text2{  
+        width:900px;
+        height:1340px;                               /*搜索栏样式2*/
+        border-style:outset;
+        border-width:mediun;
+        float:left;
+        margin-top:0px;
+        margin-left:100px;
+        background-color:#FFFFFF;
+        }
+    .text5{  
+        width:900px;
+        height:100px;                               /*搜索栏样式2*/
+        border-style:outset;
+        border-width:mediun;
+        float:left;
+        margin-top:0px;
+        margin-left:100px;
+        background-color:#FFFFFF;
+        }
+	 .btn_style{         
+	 width:130px;
+	 height:50px;
+	 font-size:30px;
+	 text-decoration:none;
+	 text-align:center;
+	 line-height:30px;
+	 color:#fff;
+	 background-color:#CC0000;
+	 border-style:outset;
+	 margin-left:20px;
+	 margin-top:40px;
+	 }  
+	 #btn_register:hover{         
+	 background-color:#047;
+	 }

@@ -1,0 +1,129 @@
+@CHARSET "UTF-8";
+body{
+	background-image: url(Picture1.png);
+	background-size:100% 100%;
+	}
+    .text1{                                 /*搜索栏样式1*/
+        margin-top:40px;
+        height:140px;
+        width:100%;
+        background-image:url(http://localhost:8080/seed/1.1.png);
+        }
+    .text2{                                 /*搜索栏样式2*/
+        width:700px;
+        height:30px;
+        }  
+    .text3{                                 /*搜索栏样式3*/
+        width:130px;
+        height:35px;
+        background-image:url(http://localhost:8080/seed/1.2.png);
+        margin-left:5px;
+	    margin-top:50px;
+        }  
+    .button3{
+           border: 2px solid #444444;
+           background-color: #555555; /* 黑 */
+           font-family:	Microsoft YaHei;
+           color: white;
+           padding: 0px 0px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size:16px;
+           width:120px;
+           height:40px;
+           margin: 4px 2px;
+           cursor: pointer;
+           -webkit-transition-duration: 0.4s; /* Safari */
+           transition-duration: 0.4s;
+           box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+           } 
+	.gap{
+	    width:100%;
+	    }
+	.titBar{
+	
+	    }
+	    
+	.tag-box{                                /*福利样式*/
+	      height:20px;
+	      width:300px;
+	      margin-top:20px;
+	    }
+	.job-card
+	   {
+		 height:80%;
+		 width:1000px;
+		 padding-left:100px;
+	    }
+	.col-4{                             /*公司模块样式*/
+	     
+	     height:100px;
+	     width:300px;
+	     background-color:#FFFFFF;
+	     margin-left:20px; 
+	     margin-top:20px;  
+	     float:right;
+	     border-style:outset;
+	     position:relative; 
+	     list-style:none;                   /*元素边距*/
+	     }
+    .inner{
+	     }
+	.txt{                                   /*职位样式*/
+	    color:#880000;
+	    font-weight:900;
+	    }
+	.money{                                 /*金钱样式*/
+        color:red;
+	    float:right;
+	    }
+	.col-6:hover{                            /*职位样式*/
+	     background-color:#FFAA33;
+	    }
+	.tao-tag{font-size:5px;
+	     border-style:none;
+	     background-color:#DDDDDD;
+	    }
+	.col-12{                                /*招聘条件样式*/
+	 
+	   margin-top:20px;
+	   }
+	.box{                                    /*整体位置样式*/
+	
+	    margin-top:100px;
+        width:20 auto;
+        height:100 auto;
+        display:block; 	 
+	    }
+	 .btn_style1
+	  {
+	 width:60px;
+	 height:40px;
+	 font-size:30px;
+	 margin-top:50px;
+	 text-align:right;
+	  }  
+	 .btn_style{                        /*搜索栏样式*/
+	 width:200px;
+	 height:30px;
+	 font-size:30px;
+	 text-decoration:none;
+	 text-align:center;
+     background-color:white;
+	 margin-left:5px;
+	 } 
+	 a
+	   {
+	   text-decoration: none;
+	   }
+     #btn_register:hover{          /*变色样式*/
+	 color:#C63300;
+	 }
+	 .input{                      /*搜索栏文字样式*/
+	 margin-left:20px;
+	 margin-top:40px;
+	 height:40px;
+	 font-size:25px;
+	 }
+	 
